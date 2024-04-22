@@ -7,7 +7,7 @@ let islogin = false
 
 /* Primitive data types */
 // number 2^53
-// string  ""
+// string  ""   call by value
 // boolean  true or false
 // null   -- object print hota console.log(typeof null)
 // undefind
@@ -15,8 +15,20 @@ let islogin = false
 // symbol  unique
 
 
+/* Reference (Non premitive data type) type */
 
-// object
+// array
 
+let heros = ["ironmam", "shiktimam" , "batman"];
+// objects
+let myObj = {
+    text: "ak",
+    age: 25,
+}
+// functions
+let myFunction=function(){
+    console.log("hello");
+
+}
 
 console.log(typeof null)
